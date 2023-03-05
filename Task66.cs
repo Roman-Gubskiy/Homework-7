@@ -36,8 +36,8 @@ namespace Task66
         public string nickname { get; set; } // Поле класса
         public void infoDog() // Метод вывода полной информации
         {
-            int length = myTailLength.tailLength; // Данные слассла хвост в классе хвостатые животные
-            string view = myTailLength.tailView;  // Данные слассла хвост в классе хвостатые животные           
+            int length = myTailLength.tailLength; // Данные классла хвост в классе хвостатые животные
+            string view = myTailLength.tailView;  // Данные классла хвост в классе хвостатые животные           
             Console.WriteLine($"Кличка:        {nickname}");
             Console.WriteLine($"Возраст:       {age} лет");
             Console.WriteLine($"Цвет:          {tailColor}");
